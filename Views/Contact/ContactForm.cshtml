@@ -1,0 +1,35 @@
+﻿
+@{
+
+    ViewBag.Title = "ContactForm";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+    <body style="background-image:url(../img/blur1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    position:relative;
+      ">
+        <style>
+            a:link {
+                color: darkblue;
+                background-color: transparent;
+                text-decoration: none;
+            }
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <h2 style="color: white;text-align:center; border: 90px solid darkblue; background-color: darkblue">  @Html.ActionLink("Home", "Index", "Home", null, new { style = "color:white" }) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; @Html.ActionLink("About Us", "AboutForm", "About", null, new { style = "color:white" }) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  @Html.ActionLink("Contact Us", "ContactForm", "Contact", null, new { style = "color:white" }) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; @Html.ActionLink("Register", "RegisterForm", "Register", null, new { style = "color:white" }) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; @Html.ActionLink("Go to Login", "LoginForm", "Login", null, new { style = "color:white" }) </h2>
+        <h3 style="font-size:20px"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>Email:</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;info.HMS@gmail.com</h3>
+        <h3 style="font-size:20px"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Phone Number:</u> &nbsp;&nbsp;&nbsp;&nbsp;(+042) 666 12</h3>
+
+        <h3 style="font-size:20px"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Address:</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Engineering and technology, Lahore, Pakistan </h3>
+        <h3 style="font-size:20px"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Timings:</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Monday - Saturday 8 AM- 6 PM </h3>
+    </body>
+</body>
+</html>
